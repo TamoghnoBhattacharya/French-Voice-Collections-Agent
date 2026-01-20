@@ -1,4 +1,4 @@
-# French Voice Collections Agent (Demo)
+# French Voice Collections Agent
 
 A minimal, brand-safe French collections voice agent with:
 - Configurable client presets
