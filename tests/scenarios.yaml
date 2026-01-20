@@ -1,0 +1,16 @@
+- name: cooperative
+  turns:
+    - "Oui, c’est moi."
+    - "D’accord."
+    - "Je peux payer aujourd’hui."
+  expect_end: END
+
+- name: robot_question
+  turns:
+    - "Vous êtes un robot ?"
+  expect_contains: "assistant dédié"
+
+- name: frustrated
+  turns:
+    - "J’en ai marre de ces appels."
+  expect_contains: "Je comprends"
